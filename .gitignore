@@ -128,6 +128,8 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-BioT5/logs
+biot5/logs
 logs
 data
+
+pretrain_tmp.sh
