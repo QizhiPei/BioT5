@@ -27,6 +27,7 @@ pip install -r requirements.txt
 ```
 
 ## Data
+Coming soon...
 
 ## Pre-trained Models
 
@@ -45,7 +46,7 @@ Take the DTI task finetuning as an example:
 ```
 bash finetune.sh ft_dti
 ```
-Change the `ft_dti` to other file names in `BioT5/configs/task` to fine-tune on other downstream tasks.
+Change the `ft_dti` to other file names in `biot5/configs/task` to fine-tune on other downstream tasks.
 
 
 ## About
