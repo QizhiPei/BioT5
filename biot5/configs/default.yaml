@@ -62,5 +62,5 @@ hydra:
     dir: ./logs/${now:%Y-%m-%d}/debug_${now:%H-%M-%S}
 
 molecule_dict: dict/selfies_dict.txt
-pair_data_dir: /BioT5/data/unimpt
-incontext_data_dir: /BioT5/data/pubmed/annotation_v1.1_replaced_selfies
+pair_data_dir: biot5/data/unimpt
+incontext_data_dir: biot5/data/pubmed/annotation_v1.1_replaced_selfies

@@ -13,8 +13,8 @@ data:
   add_explanation: False
   tk_instruct: False
   exec_file_path: utils/ni_dataset.py
-  data_dir: /BioT5/data/unimpt_finetune/splits/peer/yeast_ppi
-  task_dir: /BioT5/data/unimpt_finetune/tasks
+  data_dir: biot5/data/unimpt_finetune/splits/peer/yeast_ppi
+  task_dir: biot5/data/unimpt_finetune/tasks
 
 optim:
   name: adamw
