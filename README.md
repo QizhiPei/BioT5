@@ -4,12 +4,12 @@ BioT5: Enriching Cross-modal Integration in Biology with Chemical Knowledge and 
 
 <div align="center">
 
-[![](https://img.shields.io/badge/paper-pink?style=plastic&logo=GitBook)](https://github.com/QizhiPei/BioT5)
+[![](https://img.shields.io/badge/paper-pink?style=plastic&logo=GitBook)](https://arxiv.org/abs/2310.07276)
 [![](https://img.shields.io/badge/-github-green?style=plastic&logo=github)](https://github.com/QizhiPei/BioT5) 
 </div>
 
 ## Overview
-This repository contains the source code for *EMNLP 2023* paper "[BioT5: Enriching Cross-modal Integration in Biology with Chemical Knowledge and Natural Language Associations](https://github.com/QizhiPei/BioT5)", by Qizhi Pei, Wei Zhang, Jinhua Zhu, Kehan Wu, Kaiyuan Gao, Lijun Wu, Yingce Xia, and Rui Yan. BioT5 achieves superior performance on various biological tasks. If you have questions, don't hesitate to open an issue or ask me via <qizhipei@ruc.edu.cn> or Lijun Wu via <lijuwu@microsoft.com>. We are happy to hear from you!
+This repository contains the source code for *EMNLP 2023* paper "[BioT5: Enriching Cross-modal Integration in Biology with Chemical Knowledge and Natural Language Associations](https://arxiv.org/abs/2310.07276)", by Qizhi Pei, Wei Zhang, Jinhua Zhu, Kehan Wu, Kaiyuan Gao, Lijun Wu, Yingce Xia, and Rui Yan. BioT5 achieves superior performance on various biological tasks. If you have questions, don't hesitate to open an issue or ask me via <qizhipei@ruc.edu.cn> or Lijun Wu via <lijuwu@microsoft.com>. We are happy to hear from you!
 
 ![](./imgs/pipeline.png)
 
@@ -53,7 +53,14 @@ Change the `ft_dti` to other file names in `biot5/configs/task` to fine-tune on 
 ### References
 Coming soon...
 ```
-
+@misc{pei2023biot5,
+      title={BioT5: Enriching Cross-modal Integration in Biology with Chemical Knowledge and Natural Language Associations}, 
+      author={Qizhi Pei and Wei Zhang and Jinhua Zhu and Kehan Wu and Kaiyuan Gao and Lijun Wu and Yingce Xia and Rui Yan},
+      year={2023},
+      eprint={2310.07276},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 ```
 
 ### Acknowledegments
