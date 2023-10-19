@@ -3,8 +3,8 @@
 mode: 'ft'
 
 data:
-  max_seq_len: 512
-  max_target_len: 512
+  max_seq_len: 1536
+  max_target_len: 8
   max_num_instances_per_task: 100000
   add_task_name: False
   add_task_definition: True
@@ -13,8 +13,8 @@ data:
   add_explanation: False
   tk_instruct: False
   exec_file_path: utils/ni_dataset.py
-  data_dir: biot5/data/unimpt_finetune/splits/mol_text/mol2text
-  task_dir: biot5/data/unimpt_finetune/tasks
+  data_dir: biot5/data/splits/peer/yeast_ppi
+  task_dir: biot5/data/tasks
 
 optim:
   name: adamw
@@ -37,13 +37,13 @@ pred:
   every_steps: 1000
 
 checkpoint:
-  every_steps: 2000
+  every_steps: 200
 
 hydra:
   job:
     chdir: True
   run:
-    dir: ./logs/finetune_mol2text_local
+    dir: ./logs/finetune_peer_local
 
-test_task: mol2text
-result_fn: test_mol2text_pred.tsv
+test_task: dti
+result_fn: test_peer_pred.tsv

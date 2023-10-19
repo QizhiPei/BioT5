@@ -1,9 +1,13 @@
-ft_task=$1
+[ -z "${task}" ] && task=dti
+[ -z "${n_node}" ] && n_node=1
+[ -z "${n_gpu_per_node}" ] && n_gpu_per_node=1
 
 cd biot5
 
-python main.py \
-    task=${ft_task} \
+export TOKENIZERS_PARALLELISM=false
+
+torchrun --nnodes=${n_node} --nproc_per_node=${n_gpu_per_node} main.py \
+    task=${task} \
     model.name=google/t5-v1_1-base \
     model.random_init=false \
     model.checkpoint_path=pytorch_model.bin \

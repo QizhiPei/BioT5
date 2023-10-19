@@ -126,10 +126,10 @@ def get_tokenizer(args):
     ]
     prefixed_amino_acids = [f"<p>{aa}" for aa in amino_acids]
     tokenizer.add_tokens(prefixed_amino_acids)
-    # tokenizer.add_special_tokens({"additional_special_tokens": prefixed_amino_acids}, replace_additional_special_tokens=False)
-    selfies_dict_list = [line.strip() for line in open(os.path.join(__file__.split('BioT5/utils')[0], args.molecule_dict))]
+    
+    selfies_dict_list = [line.strip() for line in open(os.path.join(__file__.split('biot5/utils')[0], args.molecule_dict))]
     tokenizer.add_tokens(selfies_dict_list)
-    # tokenizer.add_special_tokens({"additional_special_tokens": selfies_dict_list}, replace_additional_special_tokens=False)
+    
     special_tokens_dict = {'additional_special_tokens': 
                            ['<bom>', '<eom>',
                            '<bop>', '<eop>',

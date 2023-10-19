@@ -13,8 +13,8 @@ data:
   add_explanation: False
   tk_instruct: False
   exec_file_path: utils/ni_dataset.py
-  data_dir: biot5/data/unimpt_finetune/splits/mol_text/text2mol
-  task_dir: biot5/data/unimpt_finetune/tasks
+  data_dir: biot5/data/splits/mol_text/mol2text
+  task_dir: biot5/data/tasks
 
 optim:
   name: adamw
@@ -43,7 +43,7 @@ hydra:
   job:
     chdir: True
   run:
-    dir: ./logs/finetune_text2mol_local
+    dir: ./logs/finetune_mol2text_local
 
-test_task: text2mol
-result_fn: test_text2mol_pred.tsv
+test_task: mol2text
+result_fn: test_mol2text_pred.tsv

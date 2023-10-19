@@ -133,3 +133,5 @@ logs
 data
 
 pretrain_tmp.sh
+.vscode
+cp_model.sh

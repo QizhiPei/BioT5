@@ -137,13 +137,11 @@ def predict(model, dataloader, logger, args, tokenizer, accelerator, prefix='tes
     args.last_log = time.time()
 
     if args.test_task == 'mol2text':
-        metric = evaluate.load(os.path.join(__file__.split('BioT5/utils')[0], 'BioT5/metrics/translation_metrics'))
+        metric = evaluate.load(os.path.join(__file__.split('biot5/utils')[0], 'biot5/metrics/translation_metrics'))
     elif args.test_task == 'text2mol':
-        metric = evaluate.load(os.path.join(__file__.split('BioT5/utils')[0], 'BioT5/metrics/save_only_metrics'))
-    elif args.test_task == 'dti' or args.test_task == 'molnet':
-        metric = evaluate.load(os.path.join(__file__.split('BioT5/utils')[0], 'BioT5/metrics/dti_metrics'))
-    elif args.test_task == 'ppi':
-        metric = evaluate.load(os.path.join(__file__.split('BioT5/utils')[0], 'BioT5/metrics/ppi_metrics'))
+        metric = evaluate.load(os.path.join(__file__.split('biot5/utils')[0], 'biot5/metrics/save_only_metrics'))
+    elif args.test_task == 'dti' or args.test_task == 'peer' or args.test_task == 'molnet':
+        metric = evaluate.load(os.path.join(__file__.split('biot5/utils')[0], 'biot5/metrics/dti_metrics'))
     else:
         raise NotImplementedError
     
@@ -160,7 +158,7 @@ def predict(model, dataloader, logger, args, tokenizer, accelerator, prefix='tes
 
     for step, batch in tqdm(enumerate(dataloader), total=len(dataloader)):
         batch = batch.to(accelerator.device)
-        if args.test_task == 'dti' or args.test_task == 'molnet' or args.test_task == 'ppi':
+        if args.test_task == 'dti' or args.test_task == 'peer' or args.test_task == 'molnet':
             generation_results = model.generate(
                 input_ids=batch['input_ids'],
                 attention_mask=batch['attention_mask'],
@@ -193,7 +191,7 @@ def predict(model, dataloader, logger, args, tokenizer, accelerator, prefix='tes
                     selfies_invalid += 1
             references = [sf.decoder(ref_i) for ref_i in references]
             references = [(references[i], inputs[i]) for i in range(len(references))]
-        elif args.test_task == 'dti' or args.test_task == 'molnet' or args.test_task == 'ppi':
+        elif args.test_task == 'dti' or args.test_task == 'peer' or args.test_task == 'molnet':
             # No: 465, Yes: 2163
             predictions = [(scores[0][i][2163] / (scores[0][i][2163] + scores[0][i][465])).item() for i in range(len(predictions))]
         else:
@@ -246,7 +244,7 @@ def predict(model, dataloader, logger, args, tokenizer, accelerator, prefix='tes
             args=args,
             prefix=f"{prefix}/",
         )
-    elif args.test_task == 'dti' or args.test_task == 'molnet':
+    elif args.test_task == 'dti' or args.test_task == 'peer' or args.test_task == 'molnet':
         logger.log_stats(
             stats={
                 "accuracy": eval_metric["accuracy"],
@@ -257,24 +255,6 @@ def predict(model, dataloader, logger, args, tokenizer, accelerator, prefix='tes
                 "f1": eval_metric["f1"],
                 "thred_optim": eval_metric["thred_optim"],
                 "precision": eval_metric["precision"],
-                "time": time.time() - args.last_log,
-            },
-            step=args.current_train_step,
-            args=args,
-            prefix=f"{prefix}/",
-        )
-    elif args.test_task == 'ppi':
-        logger.log_stats(
-            stats={
-                "accuracy": eval_metric["accuracy"],
-                "specificity": eval_metric["specificity"],
-                "sensitivity": eval_metric["sensitivity"],
-                "precision": eval_metric["precision"],
-                "mcc": eval_metric["mcc"],
-                "auroc": eval_metric["auroc"],
-                "f1": eval_metric["f1"],
-                "auprc": eval_metric["auprc"],
-                "kappa": eval_metric["kappa"],
                 "time": time.time() - args.last_log,
             },
             step=args.current_train_step,

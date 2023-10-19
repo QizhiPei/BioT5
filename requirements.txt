@@ -19,3 +19,4 @@ selfies
 tabulate
 schedule
 scikit-learn
+python-Levenshtein
