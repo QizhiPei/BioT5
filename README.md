@@ -74,13 +74,11 @@ We only test the evaluation code with a single gpu.
 ## About
 ### Citations
 ```
-@misc{pei2023biot5,
-      title={BioT5: Enriching Cross-modal Integration in Biology with Chemical Knowledge and Natural Language Associations}, 
-      author={Qizhi Pei and Wei Zhang and Jinhua Zhu and Kehan Wu and Kaiyuan Gao and Lijun Wu and Yingce Xia and Rui Yan},
-      year={2023},
-      eprint={2310.07276},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@article{pei2023biot5,
+  title={BioT5: Enriching Cross-modal Integration in Biology with Chemical Knowledge and Natural Language Associations},
+  author={Pei, Qizhi and Zhang, Wei and Zhu, Jinhua and Wu, Kehan and Gao, Kaiyuan and Wu, Lijun and Xia, Yingce and Yan, Rui},
+  journal={arXiv preprint arXiv:2310.07276},
+  year={2023}
 }
 ```
 
