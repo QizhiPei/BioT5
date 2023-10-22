@@ -16,6 +16,8 @@ This repository contains the source code for *EMNLP 2023* paper "[BioT5: Enrichi
 ![](./imgs/pipeline.png)
 
 ## News
+**Oct 20 2023**: The data for fine-tuning is released!
+
 **Oct 19 2023**: The pre-trained and fine-tuned models are released!
 
 **Oct 11 2023**: Initial commits. More codes, pre-trained model, and data are coming soon.
@@ -31,11 +33,11 @@ pip install -r requirements.txt
 ```
 
 ## Data
-Coming soon...
+The datasets for fine-tuning with instruction format can be downloaded from [Huggingface 🤗](https://huggingface.co/datasets/QizhiPei/BioT5_finetune_dataset).
 
 ## Models
 
-|Model|Description|🤖️ Huggingface Checkpoint|
+|Model|Description|Huggingface Checkpoint 🤗|
 |----|----|---|
 |BioT5|Pre-trained BioT5|[link](https://huggingface.co/QizhiPei/BioT5/tree/main/pretrained)|
 |BioT5-Molecule Captioning|Fine-tuned BioT5 for molecule captioning task on ChEBI-20|[link](https://huggingface.co/QizhiPei/BioT5/tree/main/mol_text/mol2text)|
