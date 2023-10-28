@@ -135,3 +135,5 @@ data
 pretrain_tmp.sh
 .vscode
 cp_model.sh
+convert_to_hf.sh
+biot5/convert_to_hf.py
