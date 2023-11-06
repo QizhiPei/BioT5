@@ -1,1 +1,1 @@
-task88_sider_investigations_molnet_train
+task79_sider_investigations_molnet_train

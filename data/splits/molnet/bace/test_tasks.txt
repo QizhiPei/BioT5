@@ -1,1 +1,1 @@
-task33_bace_molnet_test
+task24_bace_molnet_test

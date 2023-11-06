@@ -1,9 +1,9 @@
 [ -z "${task}" ] && task="dti"
 [ -z "${result_file_path}" ] && result_file_path="tmp.tsv"
 [ -z "${model_path}" ] && model_path="path_to_your_model"
-[ -z "${task_dir}" ] && task_dir="biot5/data/tasks"
-[ -z "${data_dir}" ] && data_dir="biot5/data/splits/dti/dti_biosnap"
 [ -z "${log_path}" ] && log_path="path_to_your_log"
+[ -z "${task_dir}" ] && task_dir="../data/tasks"
+[ -z "${data_dir}" ] && data_dir="../data/splits/dti/dti_human"
 
 cd biot5
 

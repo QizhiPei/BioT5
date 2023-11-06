@@ -1,7 +1,7 @@
 accelerate
-datasets == 2.13.1
-sentencepiece != 0.1.92
-transformers
+datasets==2.13.1
+sentencepiece!=0.1.92
+transformers<=4.33.3
 neptune
 pdbpp
 notebook
@@ -20,3 +20,4 @@ tabulate
 schedule
 scikit-learn
 python-Levenshtein
+fsspec==2023.6.0

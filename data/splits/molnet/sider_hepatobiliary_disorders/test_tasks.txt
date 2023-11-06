@@ -1,1 +1,1 @@
-task78_sider_hepatobiliary_disorders_molnet_test
+task69_sider_hepatobiliary_disorders_molnet_test

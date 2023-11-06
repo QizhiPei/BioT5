@@ -141,6 +141,8 @@ We don't include fine-tuned models on MoleculeNet benchmark as there are too man
 ## Fine-tuning
 ```
 export task={mol2text,text2mol,dti,peer}
+export model_path="path_to_your_model"
+export log_path="logs/test_tmp"
 export n_node=1
 export n_gpu_per_node=1
 
@@ -153,9 +155,7 @@ The parameter to control downstream tasks corresponds to file names in `biot5/co
 export task={mol2text,text2mol,dti,peer}
 export result_file_path="tmp.tsv"
 export model_path="path_to_your_model"
-export task_dir="biot5/data/tasks"
-export data_dir="biot5/data/splits/dti/dti_biosnap"
-export log_path="path_to_your_log"
+export log_path="logs/test_tmp"
 
 bash evaluation.sh
 ```

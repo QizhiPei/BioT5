@@ -13,8 +13,8 @@ data:
   add_explanation: False
   tk_instruct: False
   exec_file_path: utils/ni_dataset.py
-  data_dir: biot5/data/splits/mol_text/text2mol
-  task_dir: biot5/data/tasks
+  data_dir: ../data/splits/mol_text/text2mol
+  task_dir: ../data/tasks
 
 optim:
   name: adamw
