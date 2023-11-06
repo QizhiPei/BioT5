@@ -7,7 +7,7 @@ BioT5: Enriching Cross-modal Integration in Biology with Chemical Knowledge and 
 [![](https://img.shields.io/badge/paper-arxiv2310.07276-red?style=plastic&logo=GitBook)](https://arxiv.org/abs/2310.07276)
 [![](https://img.shields.io/badge/github-green?style=plastic&logo=github)](https://github.com/QizhiPei/BioT5) 
 [![](https://img.shields.io/badge/model-pink?style=plastic&logo=themodelsresource)](https://huggingface.co/QizhiPei/BioT5) 
-[![](https://img.shields.io/badge/dataset-orange?style=plastic&logo=data.ai)](https://huggingface.co/datasets/QizhiPei/BioT5_finetune_dataset)
+[![](https://img.shields.io/badge/dataset-orange?style=plastic&logo=data.ai)](https://github.com/QizhiPei/BioT5/data)
 [![](https://img.shields.io/badge/PyTorch-1.13+-ee4c2c?logo=pytorch&logoColor=white)](https://pytorch.org/get-started/locally/)
 
 </div>
@@ -27,6 +27,7 @@ This repository contains the source code for *EMNLP 2023* paper "[BioT5: Enrichi
 **Oct 11 2023**: Initial commits. More codes, pre-trained model, and data are coming soon.
 
 ## Setup Environment
+As the data for fine-tuning is also included in the GitHub, you need to install [git-lfs](https://git-lfs.com) to pull the data correctly.
 This is an example for how to set up a working conda environment to run the code.
 ```
 git clone https://github.com/QizhiPei/BioT5.git
