@@ -130,7 +130,6 @@ dmypy.json
 
 biot5/logs
 logs
-data
 
 pretrain_tmp.sh
 .vscode

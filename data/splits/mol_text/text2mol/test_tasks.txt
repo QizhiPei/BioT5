@@ -1,0 +1,1 @@
+task3_chebi20_text2mol_test
