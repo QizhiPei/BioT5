@@ -30,7 +30,7 @@ This repository contains the source code for *EMNLP 2023* paper "[BioT5: Enrichi
 As the data for fine-tuning is also included in the GitHub, you need to install [git-lfs](https://git-lfs.com) to pull the data correctly.
 This is an example for how to set up a working conda environment to run the code.
 ```
-git clone https://github.com/QizhiPei/BioT5.git
+git clone https://github.com/QizhiPei/BioT5.git --recursive
 cd BioT5
 conda create -n biot5 python=3.8
 conda activate biot5
@@ -123,7 +123,7 @@ print(tokenizer.decode(outputs[0], skip_special_tokens=True))
 ## Data
 The datasets for fine-tuning with instruction format can be downloaded from [HuggingFace 🤗](https://huggingface.co/datasets/QizhiPei/BioT5_finetune_dataset).
 We don't wrap the dataset into HuggingFace Dataset format but only use it to store our data.
-You need to clone it by:
+If you don't clone the BioT5 recursively `git clone https://github.com/QizhiPei/BioT5.git --recursive`, you need to manually clone it by:
 ```bash
 git clone https://huggingface.co/datasets/QizhiPei/BioT5_finetune_dataset data
 ```
