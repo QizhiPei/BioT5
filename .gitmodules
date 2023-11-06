@@ -1,0 +1,3 @@
+[submodule "data"]
+	path = data
+	url = https://huggingface.co/datasets/QizhiPei/BioT5_finetune_dataset
