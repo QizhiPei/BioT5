@@ -137,3 +137,5 @@ pretrain_tmp.sh
 cp_model.sh
 convert_to_hf.sh
 biot5/convert_to_hf.py
+
+example_usage*
