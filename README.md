@@ -27,9 +27,10 @@ This repository contains the source code for *EMNLP 2023* paper "[BioT5: Enrichi
 **Oct 11 2023**: Initial commits. More codes, pre-trained model, and data are coming soon.
 
 ## Setup Environment
-As the data for fine-tuning is also included in the GitHub, you need to install [git-lfs](https://git-lfs.com) to pull the data correctly.
+As the data for fine-tuning is also included in the GitHub, you need to install git-lfs to pull the data correctly.
 This is an example for how to set up a working conda environment to run the code.
 ```
+apt-get install git-lfs # run this if you have not installed git-lfs
 git clone https://github.com/QizhiPei/BioT5.git --recursive
 cd BioT5
 conda create -n biot5 python=3.8
