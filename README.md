@@ -29,7 +29,7 @@ This repository contains the source code for *EMNLP 2023* paper "[BioT5: Enrichi
 ## Setup Environment
 As the data for fine-tuning is also included in the GitHub, you need to install git-lfs to pull the data correctly.
 This is an example for how to set up a working conda environment to run the code.
-```
+```shell
 apt-get install git-lfs # run this if you have not installed git-lfs
 git clone https://github.com/QizhiPei/BioT5.git --recursive
 cd BioT5
