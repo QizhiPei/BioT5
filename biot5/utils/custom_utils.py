@@ -96,6 +96,7 @@ class DataCollatorForUnimptT5:
                 for k, v in examples_src_tgt[0].items()
             }
         )
+        batch_src_tgt['labels'][batch_src_tgt['labels'] == self.pad_token_id] = -100
         # pad batch['labels'] to the same the batch['input_ids']
         batch['labels'] = np.concatenate((batch['labels'], np.full((batch_size, self.input_length - self.target_length), -100)), axis=1)
 
