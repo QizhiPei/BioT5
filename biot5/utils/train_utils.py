@@ -96,7 +96,7 @@ def extra_stats(args, model, optimizer):
 
 
 def forward(model, batch, calc_acc=False):
-    batch['attention_mask'] = batch['input_ids'] != model.config.pad_token_id
+    batch['attention_mask'] = batch['input_ids'] != 0
     outputs = model(**batch)
     loss = outputs.loss
 
