@@ -18,13 +18,13 @@ This repository contains the source code for *EMNLP 2023* paper "[BioT5: Enrichi
 ![](./imgs/pipeline.png)
 
 ## News
-**Nov 06 2023**: Update example usage for molecule captioning, text-based molecule generation, drug-target interaction prediction!
+🔥**Nov 06 2023**: Update example usage for molecule captioning, text-based molecule generation, drug-target interaction prediction!
 
-**Oct 20 2023**: The data for fine-tuning is released!
+🔥**Oct 20 2023**: The data for fine-tuning is released!
 
-**Oct 19 2023**: The pre-trained and fine-tuned models are released!
+🔥**Oct 19 2023**: The pre-trained and fine-tuned models are released!
 
-**Oct 11 2023**: Initial commits. More codes, pre-trained model, and data are coming soon.
+🔥**Oct 11 2023**: Initial commits. More codes, pre-trained model, and data are coming soon.
 
 ## Setup Environment
 As the data for fine-tuning is also included in the GitHub, you need to install git-lfs to pull the data correctly.
