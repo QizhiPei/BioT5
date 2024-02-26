@@ -6,7 +6,7 @@ BioT5: Enriching Cross-modal Integration in Biology with Chemical Knowledge and 
 
 [![](https://img.shields.io/badge/paper-arxiv2310.07276-red?style=plastic&logo=GitBook)](https://arxiv.org/abs/2310.07276)
 [![](https://img.shields.io/badge/github-green?style=plastic&logo=github)](https://github.com/QizhiPei/BioT5) 
-[![](https://img.shields.io/badge/model-pink?style=plastic&logo=themodelsresource)](https://huggingface.co/QizhiPei/BioT5) 
+[![](https://img.shields.io/badge/model-pink?style=plastic&logo=themodelsresource)](https://huggingface.co/QizhiPei/biot5-base) 
 [![](https://img.shields.io/badge/dataset-orange?style=plastic&logo=data.ai)](https://huggingface.co/datasets/QizhiPei/BioT5_finetune_dataset)
 [![](https://img.shields.io/badge/PyTorch-1.13+-ee4c2c?logo=pytorch&logoColor=white)](https://pytorch.org/get-started/locally/)
 
