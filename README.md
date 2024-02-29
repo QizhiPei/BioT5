@@ -4,7 +4,8 @@ BioT5: Enriching Cross-modal Integration in Biology with Chemical Knowledge and 
 
 <div align="center">
 
-[![](https://img.shields.io/badge/paper-arxiv2310.07276-red?style=plastic&logo=GitBook)](https://arxiv.org/abs/2310.07276)
+[![](https://img.shields.io/badge/BioT5-arxiv2310.07276-red?style=plastic&logo=GitBook)](https://arxiv.org/abs/2310.07276)
+[![](https://img.shields.io/badge/BioT5+-arxiv2310.07276-red?style=plastic&logo=GitBook)](https://arxiv.org/abs/2402.17810)
 [![](https://img.shields.io/badge/github-green?style=plastic&logo=github)](https://github.com/QizhiPei/BioT5) 
 [![](https://img.shields.io/badge/model-pink?style=plastic&logo=themodelsresource)](https://huggingface.co/QizhiPei/biot5-base) 
 [![](https://img.shields.io/badge/dataset-orange?style=plastic&logo=data.ai)](https://huggingface.co/datasets/QizhiPei/BioT5_finetune_dataset)
@@ -13,11 +14,17 @@ BioT5: Enriching Cross-modal Integration in Biology with Chemical Knowledge and 
 </div>
 
 ## Overview
-This repository contains the source code for *EMNLP 2023* paper "[BioT5: Enriching Cross-modal Integration in Biology with Chemical Knowledge and Natural Language Associations](https://arxiv.org/abs/2310.07276)", by Qizhi Pei, Wei Zhang, Jinhua Zhu, Kehan Wu, Kaiyuan Gao, Lijun Wu, Yingce Xia, and Rui Yan. BioT5 achieves superior performance on various biological tasks. If you have questions, don't hesitate to open an issue or ask me via <qizhipei@ruc.edu.cn> or Lijun Wu via <lijuwu@microsoft.com>. We are happy to hear from you!
+This repository contains the source code for 
+
+* *EMNLP 2023* paper "[BioT5: Enriching Cross-modal Integration in Biology with Chemical Knowledge and Natural Language Associations](https://arxiv.org/abs/2310.07276)", by Qizhi Pei, Wei Zhang, Jinhua Zhu, Kehan Wu, Kaiyuan Gao, Lijun Wu, Yingce Xia, and Rui Yan. BioT5 achieves superior performance on various biological tasks.
+* *Arxiv 2024* paper "[BioT5+: Towards Generalized Biological Understanding with IUPAC Integration and Multi-task Tuning](https://arxiv.org/abs/2402.17810)", by Qizhi Pei, Lijun Wu, Kaiyuan Gao, Xiaozhuan Liang, Yin Fang, Jinhua Zhu, Shufang Xie, Tao Qin, Rui Yan. BioT5+ is pre-trained and fine-tuned with a large number of experiments, including **3 types of problems (classification, regression, generation), 15 kinds of tasks, and 21 total benchmark datasets**, demonstrating the remarkable performance and state-of-the-art results in most cases.
+* If you have questions, don't hesitate to open an issue or ask me via <qizhipei@ruc.edu.cn> or Lijun Wu via <lijuwu@microsoft.com>. We are happy to hear from you!
 
 ![](./imgs/pipeline.png)
 
 ## News
+🔥**Feb 29 2024**: Update BioT5 to BioT5+ with the ability of IUPAC integration and multi-task learning! Code and data will be relased ASAP.
+
 🔥**Nov 06 2023**: Update example usage for molecule captioning, text-based molecule generation, drug-target interaction prediction!
 
 🔥**Oct 20 2023**: The data for fine-tuning is released!
