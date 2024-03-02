@@ -15,15 +15,15 @@ BioT5: Enriching Cross-modal Integration in Biology with Chemical Knowledge and 
 
 
 ## News
-🔥**Feb 29 2024**: Update [BioT5](https://arxiv.org/abs/2310.07276) to [BioT5+](https://arxiv.org/abs/2402.17810) with the ability of IUPAC integration and multi-task learning! Code and data will be relased ASAP.
+🔥***Feb 29 2024***: *Update [BioT5](https://arxiv.org/abs/2310.07276) to [BioT5+](https://arxiv.org/abs/2402.17810) with the ability of IUPAC integration and multi-task learning! Code and data will be relased ASAP.*
 
-🔥**Nov 06 2023**: Update [example usage](#example-usage) for molecule captioning, text-based molecule generation, drug-target interaction prediction!
+🔥***Nov 06 2023***: *Update [example usage](#example-usage) for molecule captioning, text-based molecule generation, drug-target interaction prediction!*
 
-🔥**Oct 20 2023**: The data for fine-tuning is released!
+🔥***Oct 20 2023***: *The [data](#data) for fine-tuning is released!*
 
-🔥**Oct 19 2023**: The pre-trained and fine-tuned [models](#models) are released!
+🔥***Oct 19 2023***: *The pre-trained and fine-tuned [models](#models) are released!*
 
-🔥**Oct 11 2023**: Initial commits. More codes, pre-trained model, and data are coming soon.
+🔥***Oct 11 2023***: *Initial commits. More codes, pre-trained model, and data are coming soon.*
 
 
 ## Overview
