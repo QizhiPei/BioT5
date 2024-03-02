@@ -13,6 +13,19 @@ BioT5: Enriching Cross-modal Integration in Biology with Chemical Knowledge and 
 
 </div>
 
+
+## News
+🔥**Feb 29 2024**: Update [BioT5](https://arxiv.org/abs/2310.07276) to [BioT5+](https://arxiv.org/abs/2402.17810) with the ability of IUPAC integration and multi-task learning! Code and data will be relased ASAP.
+
+🔥**Nov 06 2023**: Update [example usage](#example-usage) for molecule captioning, text-based molecule generation, drug-target interaction prediction!
+
+🔥**Oct 20 2023**: The data for fine-tuning is released!
+
+🔥**Oct 19 2023**: The pre-trained and fine-tuned [models](#models) are released!
+
+🔥**Oct 11 2023**: Initial commits. More codes, pre-trained model, and data are coming soon.
+
+
 ## Overview
 This repository contains the source code for 
 
@@ -26,16 +39,6 @@ This repository contains the source code for
 **↓Overview of BioT5+**
 ![](./imgs/overview_biot5+.png)
 
-## News
-🔥**Feb 29 2024**: Update BioT5 to BioT5+ with the ability of IUPAC integration and multi-task learning! Code and data will be relased ASAP.
-
-🔥**Nov 06 2023**: Update example usage for molecule captioning, text-based molecule generation, drug-target interaction prediction!
-
-🔥**Oct 20 2023**: The data for fine-tuning is released!
-
-🔥**Oct 19 2023**: The pre-trained and fine-tuned models are released!
-
-🔥**Oct 11 2023**: Initial commits. More codes, pre-trained model, and data are coming soon.
 
 ## Setup Environment
 As the data for fine-tuning is also included in the GitHub, you need to install git-lfs to pull the data correctly.
