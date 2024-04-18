@@ -185,8 +185,8 @@ bash evaluation.sh
 ```
 We only test the evaluation code with a single gpu.
 
-## About
-### Citations
+## Citations
+### BioT5
 ```
 @article{pei2023biot5,
   title={BioT5: Enriching Cross-modal Integration in Biology with Chemical Knowledge and Natural Language Associations},
@@ -195,6 +195,15 @@ We only test the evaluation code with a single gpu.
   year={2023}
 }
 ```
+### BioT5+
+```
+@article{pei2024biot5+,
+  title={BioT5+: Towards Generalized Biological Understanding with IUPAC Integration and Multi-task Tuning},
+  author={Pei, Qizhi and Wu, Lijun and Gao, Kaiyuan and Liang, Xiaozhuan and Fang, Yin and Zhu, Jinhua and Xie, Shufang and Qin, Tao and Yan, Rui},
+  journal={arXiv preprint arXiv:2402.17810},
+  year={2024}
+}
+```
 
-### Acknowledegments
+## Acknowledegments
 The code is based on [nanoT5](https://github.com/PiotrNawrot/nanoT5).
