@@ -16,9 +16,11 @@ BioT5: Enriching Cross-modal Integration in Biology with Chemical Knowledge and 
 
 
 ## News
+🔥***Feb 29 2024***: *[BioT5+](https://arxiv.org/abs/2402.17810) is accepted by ACL 2024 (Findings). Code and data will be relased in next few weeks.*
+
 🔥***Mar 03 2024***: *We have published a suvery paper [Leveraging Biomolecule and Natural Language through Multi-Modal Learning: A Survey](https://arxiv.org/abs/2403.01528) and the related github repository [Awesome-Biomolecule-Language-Cross-Modeling](https://github.com/QizhiPei/Awesome-Biomolecule-Language-Cross-Modeling). Kindly check it if you are interested in this field~*
 
-🔥***Feb 29 2024***: *Update [BioT5](https://arxiv.org/abs/2310.07276) to [BioT5+](https://arxiv.org/abs/2402.17810) with the ability of IUPAC integration and multi-task learning! Code and data will be relased ASAP.*
+🔥***Feb 29 2024***: *Update [BioT5](https://arxiv.org/abs/2310.07276) to [BioT5+](https://arxiv.org/abs/2402.17810) with the ability of IUPAC integration and multi-task learning!*
 
 🔥***Nov 06 2023***: *Update [example usage](#example-usage) for molecule captioning, text-based molecule generation, drug-target interaction prediction!*
 
