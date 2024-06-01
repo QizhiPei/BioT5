@@ -190,11 +190,15 @@ We only test the evaluation code with a single gpu.
 ## Citations
 ### BioT5
 ```
-@article{pei2023biot5,
+@inproceedings{pei2023biot5,
   title={BioT5: Enriching Cross-modal Integration in Biology with Chemical Knowledge and Natural Language Associations},
   author={Pei, Qizhi and Zhang, Wei and Zhu, Jinhua and Wu, Kehan and Gao, Kaiyuan and Wu, Lijun and Xia, Yingce and Yan, Rui},
-  journal={arXiv preprint arXiv:2310.07276},
-  year={2023}
+  booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+  month = dec,
+  year = "2023",
+  publisher = "Association for Computational Linguistics",
+  url = "https://aclanthology.org/2023.emnlp-main.70",
+  pages = "1102--1123"
 }
 ```
 ### BioT5+
