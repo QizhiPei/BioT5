@@ -16,7 +16,7 @@ BioT5: Enriching Cross-modal Integration in Biology with Chemical Knowledge and 
 
 
 ## News
-🔥***July 11 2024***: *Codes, data, and pre-trained model for BioT5+ are relased.*
+🔥***July 11 2024***: *Data, and pre-trained model for BioT5+ are relased.*
 
 🔥***May 16 2024***: *[BioT5+](https://arxiv.org/abs/2402.17810) is accepted by ACL 2024 (Findings).*
 
