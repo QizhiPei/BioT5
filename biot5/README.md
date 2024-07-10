@@ -1,6 +1,6 @@
 # BioT5
 **↓Overview of BioT5**
-![](./imgs/overview_biot5.png)
+![](../imgs/overview_biot5.png)
 
 
 ## Setup Environment
