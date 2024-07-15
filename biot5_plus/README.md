@@ -83,11 +83,11 @@ git clone https://huggingface.co/datasets/QizhiPei/BioT5_finetune_dataset data
 
 |Model|Description|HuggingFace Checkpoint 🤗|
 |----|----|---|
-|BioT5-base|Pre-trained BioT5+ base model|[link](https://huggingface.co/QizhiPei/biot5-plus-base)|
-|BioT5-large|Pre-trained BioT5+ large model|[link](https://huggingface.co/QizhiPei/biot5-plus-large)|
-|BioT5-mol-instructions (molecule)|Fine-tuned BioT5 for molecule-related tasks on Mol-Instructions dataset|[link](https://huggingface.co/QizhiPei/biot5-plus-base-mol-instructions-molecule)|
-|BioT5-mol-instructions (protein)|Fine-tuned BioT5 for protein-related tasks on Mol-Instructions dataset|[link](https://huggingface.co/QizhiPei/biot5-plus-base-mol-instructions-protein)|
-|BioT5-chebi20|Fine-tuned BioT5 for molecule captioning and text-based molecule generation tasks on ChEBI-20 dataset|[link](https://huggingface.co/QizhiPei/biot5-plus-base-chebi20)|
+|BioT5+-base|Pre-trained BioT5+ base model|[link](https://huggingface.co/QizhiPei/biot5-plus-base)|
+|BioT5+-large|Pre-trained BioT5+ large model|[link](https://huggingface.co/QizhiPei/biot5-plus-large)|
+|BioT5+-mol-instructions (molecule)|Fine-tuned BioT5 for molecule-related tasks on Mol-Instructions dataset|[link](https://huggingface.co/QizhiPei/biot5-plus-base-mol-instructions-molecule)|
+|BioT5+-mol-instructions (protein)|Fine-tuned BioT5 for protein-related tasks on Mol-Instructions dataset|[link](https://huggingface.co/QizhiPei/biot5-plus-base-mol-instructions-protein)|
+|BioT5+-chebi20|Fine-tuned BioT5 for molecule captioning and text-based molecule generation tasks on ChEBI-20 dataset|[link](https://huggingface.co/QizhiPei/biot5-plus-base-chebi20)|
 
 
 
