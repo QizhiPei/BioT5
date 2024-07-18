@@ -84,7 +84,7 @@ git clone https://huggingface.co/datasets/QizhiPei/BioT5_finetune_dataset data
 |Model|Description|HuggingFace Checkpoint 🤗|
 |----|----|---|
 |BioT5-plus-base|Pre-trained BioT5+ base model|[link](https://huggingface.co/QizhiPei/biot5-plus-base)|
-|BioT5-plus-large|Pre-trained BioT5+ large model|[link](https://huggingface.co/QizhiPei/biot5-plus-large)|
+|BioT5-plus-large|Pre-trained BioT5+ large model. Used for [Language + Molecules @ ACL 2024](https://language-plus-molecules.github.io/#leaderboard).|[link](https://huggingface.co/QizhiPei/biot5-plus-large)|
 |BioT5-plus-mol-instructions (molecule)|Fine-tuned BioT5 for molecule-related tasks on Mol-Instructions dataset|[link](https://huggingface.co/QizhiPei/biot5-plus-base-mol-instructions-molecule)|
 |BioT5-plus-mol-instructions (protein)|Fine-tuned BioT5 for protein-related tasks on Mol-Instructions dataset|[link](https://huggingface.co/QizhiPei/biot5-plus-base-mol-instructions-protein)|
 |BioT5-plus-chebi20|Fine-tuned BioT5 for molecule captioning and text-based molecule generation tasks on ChEBI-20 dataset|[link](https://huggingface.co/QizhiPei/biot5-plus-base-chebi20)|

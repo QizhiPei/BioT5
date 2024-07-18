@@ -5,7 +5,6 @@
 [ -z "${task_dir}" ] && task_dir="../data/tasks"
 [ -z "${data_dir}" ] && data_dir="../data/splits/dti/dti_human"
 
-cd biot5
 
 python main.py \
         task=${task} \

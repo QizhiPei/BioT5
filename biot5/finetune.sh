@@ -6,8 +6,6 @@
 [ -z "${n_node}" ] && n_node=1
 [ -z "${n_gpu_per_node}" ] && n_gpu_per_node=1
 
-cd biot5
-
 export TOKENIZERS_PARALLELISM=false
 
 torchrun --nnodes=${n_node} --nproc_per_node=${n_gpu_per_node} main.py \
