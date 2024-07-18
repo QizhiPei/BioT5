@@ -15,7 +15,7 @@ torchrun --nnodes=${n_node} --nproc_per_node=${n_gpu_per_node} main.py \
     model.checkpoint_path=${model_path} \
     data.task_dir=${task_dir} \
     data.data_dir=${data_dir} \
-    molecule_dict=dict/selfies_dict.txt \
+    molecule_dict=../dict/selfies_dict.txt \
     hydra.run.dir=${log_path} \
     optim.total_steps=50000 optim.warmup_steps=1000 optim.name=adamw \
     optim.lr_scheduler=cosine optim.base_lr=1e-3 \

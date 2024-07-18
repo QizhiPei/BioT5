@@ -15,6 +15,7 @@ model:
   dropout: 0.0
   random_init: true
   compile: false # Pytorch 2.0
+  no_plus: false
 
 data:
   input_length: 512
@@ -36,16 +37,22 @@ optim:
   final_cosine: 1e-5
 
 eval:
-  every_steps: 10000000 # Don't eval
-  steps: 500
+  every_steps: 5000
+  steps: 10000000
 
 pred:
   every_steps: 10000000
+  every_epochs: 0
 
 checkpoint:
   every_steps: 5000
+  every_epochs: 0
 
 logging:
+  wandb: false
+  wandb_project: 'biot5_plus'
+  wandb_group: 'pt'
+  wandb_run_name: 'pt'
   neptune: false
   neptune_creds:
     project:
@@ -61,6 +68,23 @@ hydra:
   run:
     dir: ./logs/${now:%Y-%m-%d}/debug_${now:%H-%M-%S}
 
-molecule_dict: ../dict/selfies_dict.txt
-pair_data_dir: biot5/data/unimpt
-incontext_data_dir: biot5/data/pubmed/annotation_v1.1_replaced_selfies
+molecule_dict: ../dict/selfies_dict_0523.txt
+pair_data_dir: ~/biot5_plus/unimpt
+pubmed_data_dir: ~/biot5_plus/pubmed/pmc_hf_dataset/pmc_all_cleaned
+incontext_pubmed_data_dir: ~/biot5_plus/pubmed/annotation_v1.1_replaced_name_iupac_selfies_prob
+incontext_biorxiv_data_dir: ~/biot5_plus/unimpt/biorxiv_bern2_name_iupac_selfies_prob
+run_test: True
+run_validation: True
+finetune_from_biot5: ''
+
+generation_config:
+  do_sample: false
+  num_beams: 1
+  temperature: 1.0
+  top_k: 50
+  top_p: 1.0
+  repetition_penalty: 1.0
+  max_new_tokens: ''
+
+restore_train: False
+restore_train_path: ~/tmp/checkpoint-pt-xxxx
