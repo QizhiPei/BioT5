@@ -239,7 +239,7 @@ def load_dataset_splits(args):
             'test': dataset_pro_text['test'],
         }
 
-        dataset_iupac_selfies = datasets.load_dataset('QizhiPei/pubchem_cid_iupac_selfies', streaming=True, use_auth_token='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')
+        dataset_iupac_selfies = datasets.load_dataset('QizhiPei/pubchem_cid_iupac_selfies', streaming=True)
         
         def iupac_selfies_process(iupac, selfies):
             return '<boi>' + iupac + '<eoi>' + ' ' + '<bom>' + selfies + '<eom>'
