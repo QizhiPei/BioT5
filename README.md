@@ -16,7 +16,7 @@ BioT5: Enriching Cross-modal Integration in Biology with Chemical Knowledge and 
 
 
 ## News
-🎉***July 18 2024***: *Happy to share that our enhanced version of BioT5+ ranked **1st** place in the Text-based Molecule Generation track and **2nd** place in the Molecular Captioning Track at Language + Molecule @ ACL2024 Competition*
+🎉***July 18 2024***: *Happy to share that our [enhanced version of BioT5+](https://openreview.net/forum?id=Fib0IJt8YW) ranked **1st** place in the Text-based Molecule Generation track and **2nd** place in the Molecular Captioning Track at [Language + Molecule @ ACL2024 Competition](https://language-plus-molecules.github.io/#leaderboard)*
 
 🔥***July 11 2024***: *Data, codes, and pre-trained models for BioT5+ are relased.*
 
