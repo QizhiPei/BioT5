@@ -68,7 +68,7 @@ hydra:
   run:
     dir: ./logs/${now:%Y-%m-%d}/debug_${now:%H-%M-%S}
 
-molecule_dict: ../dict/selfies_dict_0523.txt
+molecule_dict: dict/selfies_dict.txt
 pair_data_dir: ~/biot5_plus/unimpt
 pubmed_data_dir: ~/biot5_plus/pubmed/pmc_hf_dataset/pmc_all_cleaned
 incontext_pubmed_data_dir: ~/biot5_plus/pubmed/annotation_v1.1_replaced_name_iupac_selfies_prob
