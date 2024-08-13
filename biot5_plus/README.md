@@ -104,6 +104,7 @@ bash evaluation_chebi20.sh
 We only test the evaluation code with a single gpu.
 
 ## Citations
+```
 @article{pei2024biot5+,
   title={BioT5+: Towards Generalized Biological Understanding with IUPAC Integration and Multi-task Tuning},
   author={Pei, Qizhi and Wu, Lijun and Gao, Kaiyuan and Liang, Xiaozhuan and Fang, Yin and Zhu, Jinhua and Xie, Shufang and Qin, Tao and Yan, Rui},
